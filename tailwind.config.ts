@@ -61,8 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                notion: {
+                    blue: '#2383E2',
+                    purple: '#9B51E0',
+                    red: '#FF7369',
+                    yellow: '#FFD60A',
+                    pink: '#FF9CD6',
+                },
 			},
+            backgroundImage: {
+                'hero-gradient': 'linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%)',
+                'blue-purple-gradient': 'linear-gradient(90deg, hsla(224, 85%, 66%, 1) 0%, hsla(269, 85%, 66%, 1) 100%)',
+                'dark-gradient': 'linear-gradient(180deg, rgba(9,9,23,1) 0%, rgba(27,27,62,1) 100%)',
+                'glow-conic': 'conic-gradient(from 180deg at 50% 50%, #4f46e5 0deg, #8b5cf6 180deg, #ef4444 360deg)',
+            },
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
