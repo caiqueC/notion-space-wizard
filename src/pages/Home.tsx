@@ -32,9 +32,6 @@ const Home = () => {
         </div>
         
         {/* Placeholder for Hero Image */}
-        <div className="relative max-w-5xl mx-auto mt-16 glass-card p-2 rounded-2xl h-[450px] flex items-center justify-center text-gray-300">
-          Visualização do Dashboard em breve
-        </div>
       </section>
 
       {/* Features Section */}
