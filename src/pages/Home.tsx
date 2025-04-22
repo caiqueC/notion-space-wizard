@@ -1,26 +1,14 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/Navbar";
-import backgroundImage from "/lovable-uploads/239444fd-540a-49f8-9c73-a8cc3863c797.png";
 
 const Home = () => {
   return (
-    <div 
-      className="min-h-screen bg-dark-gradient text-white relative" 
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        position: 'relative'
-      }}
-    >
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
-      
+    <div className="min-h-screen bg-dark-gradient text-white">
       <Navbar />
       
       {/* Hero Section */}
-      <section className="container mx-auto pt-32 pb-20 px-4 relative z-10">
+      <section className="container mx-auto pt-32 pb-20 px-4">
         <div className="max-w-4xl mx-auto text-center mb-12 space-y-6">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight text-gradient animate-fade-in">
             Transforme suas ideias em Espaços Notion
@@ -42,6 +30,8 @@ const Home = () => {
             </Link>
           </div>
         </div>
+        
+        {/* Placeholder for Hero Image */}
       </section>
 
       {/* Features Section */}
