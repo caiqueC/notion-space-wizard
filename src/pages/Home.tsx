@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/Navbar";
@@ -32,15 +31,9 @@ const Home = () => {
           </div>
         </div>
         
-        {/* Hero Image */}
-        <div className="relative max-w-5xl mx-auto mt-16 glass-card p-2 rounded-2xl">
-          <div className="absolute -top-6 -right-6 w-24 h-24 bg-notion-purple rounded-full blur-3xl opacity-20" />
-          <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-notion-blue rounded-full blur-3xl opacity-20" />
-          <img 
-            src="/lovable-uploads/2337052b-939a-4a60-bf92-a727ac74b3e2.png" 
-            alt="NotionSpaceWizard Dashboard Preview" 
-            className="w-full h-auto rounded-xl shadow-2xl border border-white/10"
-          />
+        {/* Placeholder for Hero Image */}
+        <div className="relative max-w-5xl mx-auto mt-16 glass-card p-2 rounded-2xl h-[450px] flex items-center justify-center text-gray-300">
+          Visualização do Dashboard em breve
         </div>
       </section>
 
@@ -143,7 +136,7 @@ const Home = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-gradient">O Que Dizem Nossos Usuários</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Empreendedores de diversos setores já transformaram seus negócios com nossos espaços Notion
+            Empreendedores de diversos setores já transformaram seus negócios com nossos espaços Notion personalizados pela IA
           </p>
         </div>
         
